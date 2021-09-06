@@ -2,7 +2,8 @@
 #include <float.h>
 #include <limits.h>
 
-int main() {
+int main()
+{
 	int var1 = INT_MAX;
 	float var2 = FLT_MAX;
 	double var3 = DBL_MAX;

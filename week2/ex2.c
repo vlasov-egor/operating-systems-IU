@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(void) {
+int main(void)
+{
     size_t len = 256;
 
     char *s = malloc(sizeof(char) * len);
