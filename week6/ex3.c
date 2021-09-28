@@ -69,9 +69,10 @@ int main()
         }
         last_stop[mini] = time;
     }
+
     int wait_sum = 0;
     int turn_sum = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; ++i)
     {
         int turn_time = last_stop[i] - start_time[i];
         int wait_time = wt[i];
