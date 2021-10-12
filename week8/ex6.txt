@@ -1,0 +1,7 @@
+Page size = 8KB = 8192 bit
+Virtual address = 16 bit,
+Addresses = 65536. 
+13 bits - offset and 3 bits - addressing 
+2^3 = 8 entries
+
+Result: 8

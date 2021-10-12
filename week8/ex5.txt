@@ -1,0 +1,2 @@
+Physical - Physical address of cell in memory device
+Virtual - Address which is abstract and mapped in physical address
