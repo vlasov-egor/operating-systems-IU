@@ -1,15 +1,13 @@
-#include <dirent.h>
 #include <stdio.h>
-#include <sys/stat.h>
-#include <sys/types.h>
+#include <dirent.h>
 
 int main()
 {
-    DIR *root = opendir("/");
-
+    DIR *r = opendir("/");
     struct dirent *d;
-    d = readdir(root);
-
-    while (d != NULL)
+    while ((d = readdir(r)) != NULL)
+    {
         printf("%s\n", d->d_name);
+    }
+    return 0;
 }
